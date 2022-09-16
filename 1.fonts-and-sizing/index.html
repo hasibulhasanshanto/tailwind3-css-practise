@@ -4,12 +4,155 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fonts and siizng</title>
+    <title>Fonts and Sizng</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-      <h1 class="bg-yellow-500 text-white">Hello to the tailwind world!</h1>
+    <!-- font size -->
+    <div class="my-5">
+      <h1 class="bg-indigo-500 text-white text-2xl mb-5 font-bold">
+        Font Size
+      </h1>
+      <h1 class="bg-indigo-500 text-white text-2xl mb-2">
+        This is exmaple of text 2xl
+      </h1>
+      <h2 class="bg-indigo-500 text-white text-xl mb-2">
+        This is exmaple of text xl
+      </h2>
+      <h3 class="bg-indigo-500 text-white text-lg mb-2">
+        This is exmaple of text lg
+      </h3>
+      <h3 class="bg-indigo-500 text-white text-base mb-2">
+        This is exmaple of text base
+      </h3>
+      <h3 class="bg-indigo-500 text-white text-sm mb-2">
+        This is exmaple of text sm
+      </h3>
+      <h3 class="bg-indigo-500 text-[90px] text-sm mb-2">
+        This is exmaple of custom font size of 90px
+      </h3>
+    </div>
+    <!-- Font Family -->
+    <div class="my-5">
+      <h1 class="bg-indigo-500 text-white text-2xl mb-5 font-bold">
+        Font Family
+      </h1>
+
+      <p class="font-sans">
+        Sans - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+        quis eaque quidem asperiores non illo ipsam laborum nesciunt facere qui?
+      </p>
+      <p class="font-serif">
+        Serif - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+        quis eaque quidem asperiores non illo ipsam laborum nesciunt facere qui?
+      </p>
+      <p class="font-mono">
+        Mono - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+        quis eaque quidem asperiores non illo ipsam laborum nesciunt facere qui?
+      </p>
+    </div>
+    <!-- Font Smoothing -->
+    <div class="my-5">
+      <h1 class="bg-indigo-500 text-white text-2xl mb-5 font-bold">
+        Font Smoothing
+      </h1>
+      <p class="subpixel-antialiased hover:antialiased">
+        <span class="font-bold">subpixel-antialiased</span> <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+        perferendis officiis totam quam nulla deleniti autem voluptas pariatur
+        laudantium distinctio. Corporis enim quaerat aperiam adipisci in maxime
+        expedita facilis eius, tempore ratione, ipsum, eaque architecto libero
+        culpa? Modi, aut fuga dolorum minima quia voluptatum porro, repudiandae
+        aliquam perspiciatis quae qui!
+      </p>
+      <p class="antialiased hover:subpixel-antialiased">
+        <span class="font-bold">antialiased</span> <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+        perferendis officiis totam quam nulla deleniti autem voluptas pariatur
+        laudantium distinctio. Corporis enim quaerat aperiam adipisci in maxime
+        expedita facilis eius, tempore ratione, ipsum, eaque architecto libero
+        culpa? Modi, aut fuga dolorum minima quia voluptatum porro, repudiandae
+        aliquam perspiciatis quae qui!
+      </p>
+    </div>
+    <!-- Font Style -->
+    <div class="my-5">
+      <h1 class="bg-indigo-500 text-white text-2xl mb-5 font-bold">
+        Font Style
+      </h1>
+      <p class="italic">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, atque.
+      </p>
+      <p class="non-italic">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, atque.
+      </p>
+    </div>
+    <!-- Font Weight -->
+    <div class="my-5">
+      <h1 class="bg-indigo-500 text-white text-2xl mb-5 font-bold">
+        Font Weight
+      </h1>
+      <p class="font-thin">
+        <span class="font-bold">Clss Name: font-thin</span><br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+        blanditiis sed sint fugiat ipsam commodi, reprehenderit repellendus
+        consectetur voluptatibus tempora!
+      </p>
+      <p class="font-extralight">
+        <span class="font-bold">Clss Name: font-extralight</span><br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+        blanditiis sed sint fugiat ipsam commodi, reprehenderit repellendus
+        consectetur voluptatibus tempora!
+      </p>
+      <p class="font-light">
+        <span class="font-bold">Clss Name: font-light</span><br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+        blanditiis sed sint fugiat ipsam commodi, reprehenderit repellendus
+        consectetur voluptatibus tempora!
+      </p>
+      <p class="font-normal">
+        <span class="font-bold">Clss Name: font-normal</span><br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+        blanditiis sed sint fugiat ipsam commodi, reprehenderit repellendus
+        consectetur voluptatibus tempora!
+      </p>
+      <p class="font-medium">
+        <span class="font-bold">Clss Name: font-medium</span><br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+        blanditiis sed sint fugiat ipsam commodi, reprehenderit repellendus
+        consectetur voluptatibus tempora!
+      </p>
+      <p class="font-semibold">
+        <span class="font-bold">Clss Name: font-semibold</span><br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+        blanditiis sed sint fugiat ipsam commodi, reprehenderit repellendus
+        consectetur voluptatibus tempora!
+      </p>
+      <p class="font-bold">
+        <span class="font-bold">Clss Name: font-bold</span><br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+        blanditiis sed sint fugiat ipsam commodi, reprehenderit repellendus
+        consectetur voluptatibus tempora!
+      </p>
+      <p class="font-extrabold">
+        <span class="font-extrabold">Clss Name: font-extrabold</span><br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+        blanditiis sed sint fugiat ipsam commodi, reprehenderit repellendus
+        consectetur voluptatibus tempora!
+      </p>
+      <p class="font-black">
+        <span class="font-black">Clss Name: font-black</span><br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+        blanditiis sed sint fugiat ipsam commodi, reprehenderit repellendus
+        consectetur voluptatibus tempora!
+      </p>
+    </div>
+    <!-- Font type -->
+    <div class="my-5">
+      <h1 class="bg-indigo-500 text-white text-2xl mb-5 font-bold">
+        Font Family
+      </h1>
+      <p class=""><span class="font-bold">Clss Name: </span><br /></p>
     </div>
   </body>
 </html>
